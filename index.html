@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Positive Energy Dance Company</title>
+  <meta name="description" content="San Diego–based dance studio and performance team. Group & private lessons, teacher training, events, and more." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root { --brand:#ef4444; }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
+    .btn-primary{ @apply px-5 py-3 rounded-xl text-white font-semibold; background: var(--brand); }
+    .btn-ghost{ @apply px-5 py-3 rounded-xl border font-semibold; }
+    .video { aspect-ratio: 16/9; width: 100%; border-radius: 12px; }
+    .badge{ @apply inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-sm font-medium border bg-white; }
+    .slide{ position:absolute; inset:0; background-size:cover; background-position:center; opacity:0; transition:opacity .7s ease; }
+    .slide.active{ opacity:1; }
+    .focus-ring:focus{ outline: 3px solid #000; outline-offset: 2px; }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-900">
+  <!-- Header -->
+  <header class="sticky top-0 z-40 bg-white/90 backdrop-blur border-b">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="#home" class="flex items-center gap-3 font-extrabold text-xl" aria-label="Positive Energy Dance Company Home">
+        <img src="./logo_pE.jpg" alt="Positive Energy Dance Company logo" class="w-9 h-9 rounded-xl"/>
+        Positive Energy Dance Co
+      </a>
+      <button id="menuBtn" class="md:hidden p-2 rounded-lg border" aria-label="Open menu">☰</button>
+      <nav id="mainNav" class="hidden md:flex items-center gap-6 text-sm font-medium" aria-label="Main">
+        <a href="#services" class="hover:text-red-600">Services</a>
+        <a href="#classes" class="hover:text-red-600">Classes</a>
+        <a href="#instructors" class="hover:text-red-600">Instructors</a>
+        <a href="#rates" class="hover:text-red-600">Rates</a>
+        <a href="#contact" class="hover:text-red-600">Contact</a>
+        <a href="https://instagram.com/positiveenergydanceco" target="_blank" rel="noopener noreferrer" class="hover:text-red-600" aria-label="Instagram @positiveenergydanceco">Instagram</a>
+        <a href="#book" class="btn-primary">Book Now</a>
+      </nav>
+    </div>
+    <!-- Mobile menu -->
+    <div id="mobileNav" class="md:hidden hidden border-t bg-white">
+      <div class="max-w-6xl mx-auto px-4 py-3 grid gap-3 text-sm font-medium">
+        <a href="#services" class="hover:text-red-600">Services</a>
+        <a href="#classes" class="hover:text-red-600">Classes</a>
+        <a href="#instructors" class="hover:text-red-600">Instructors</a>
+        <a href="#rates" class="hover:text-red-600">Rates</a>
+        <a href="#contact" class="hover:text-red-600">Contact</a>
+        <a href="https://instagram.com/positiveenergydanceco" target="_blank" rel="noopener noreferrer" class="hover:text-red-600">Instagram</a>
+        <a href="#book" class="btn-primary text-center">Book Now</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Slider -->
+  <section id="home" class="relative h-[70vh] min-h-[480px] overflow-hidden">
+    <div class="slide active" style="background-image:url('./Anjali_Villarini.png');"></div>
+    <div class="slide" style="background-image:url('./Micheal_Saluats.png');"></div>
+    <div class="slide" style="background-image:url('./Micheal_Anjali.png');"></div>
+    <div class="slide" style="background-image:url('./Chuck_Kat.png');"></div>
+    <div class="slide" style="background-image:url('./Sinai_Ajura.png');"></div>
+    <div class="absolute inset-0 bg-black/50"></div>
+    <div class="relative z-10 h-full">
+      <div class="max-w-6xl mx-auto px-4 h-full flex items-center">
+        <div class="text-white max-w-2xl">
+          <h1 class="text-4xl md:text-6xl font-extrabold leading-tight">Learn • Train • Perform</h1>
+          <p class="mt-4 text-lg md:text-xl">San Diego–based studio & performance team led by <strong>Michael Saltus</strong> & <strong>Anjali Villarini</strong>. Beginners to advanced welcome in a friendly, high‑energy community.</p>
+          <div class="mt-8 flex gap-3 flex-wrap">
+            <a href="#classes" class="btn-primary">Join Monthly Classes</a>
+            <a href="#rates" class="btn-ghost">View Rates</a>
+            <a href="#contact" class="btn-ghost">Hire us for an event</a>
+          </div>
+          <div class="mt-6 flex flex-wrap gap-2">
+            <span class="badge">Queen Bee’s — North Park • 3925 Ohio St, San Diego, CA 92104</span>
+            <span class="badge">HQ — Kearny Mesa • 5035 Shawline St, San Diego, CA 92111</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Instructors -->
+  <section id="instructors" class="py-16 bg-gray-50">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl font-bold">Instructors</h2>
+      <div class="mt-8 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Anjali -->
+        <article class="rounded-2xl border bg-white p-4">
+          <img src="./Anjali_Villarini.png" alt="Anjali Villarini teaching" class="w-full h-56 object-cover rounded-xl"/>
+          <h3 class="mt-4 font-semibold text-lg">Anjali Villarini</h3>
+          <p class="text-sm text-gray-600">Dance Instructor • Salsa, Bachata, Technique</p>
+          <a href="#contact" class="mt-3 inline-block text-red-600 hover:underline">Book a lesson</a>
+        </article>
+        <!-- Sinai -->
+        <article class="rounded-2xl border bg-white p-4">
+          <img src="./Sinai_Ajura.png" alt="Sinai Ajuria S in blue performance costume" class="w-full h-56 object-cover rounded-xl"/>
+          <h3 class="mt-4 font-semibold text-lg">Sinai Ajuria S</h3>
+          <p class="text-sm text-gray-600">Dance Instructor • Salsa, Bachata</p>
+          <a href="#contact" class="mt-3 inline-block text-red-600 hover:underline">Book a lesson</a>
+        </article>
+        <!-- Chuck & Kat -->
+        <article class="rounded-2xl border bg-white p-4">
+          <img src="./Chuck_Kat.png" alt="Chuck and Kat teaching Casino Rueda" class="w-full h-56 object-cover rounded-xl"/>
+          <h3 class="mt-4 font-semibold text-lg">Chuck & Kat</h3>
+          <p class="text-sm text-gray-600">Dance Instructors • Casino Rueda</p>
+          <a href="#contact" class="mt-3 inline-block text-red-600 hover:underline">Book a lesson</a>
+        </article>
+        <!-- Michael & Anjali Joint Card -->
+        <article class="rounded-2xl border bg-white p-4">
+          <img src="./Micheal_Anjali.png" alt="Michael Saltus and Anjali Villarini dancing together" class="w-full h-56 object-cover rounded-xl"/>
+          <h3 class="mt-4 font-semibold text-lg">Michael & Anjali</h3>
+          <p class="text-sm text-gray-600">Directors • Salsa, Bachata, Ballroom</p>
+          <a href="#contact" class="mt-3 inline-block text-red-600 hover:underline">Book a lesson</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Scripts -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const slides = document.querySelectorAll('.slide');
+      let current = 0;
+      function showSlide(i) { slides.forEach((s, idx) => s.classList.toggle('active', idx === i)); }
+      function nextSlide() { current = (current + 1) % slides.length; showSlide(current); }
+      setInterval(nextSlide, 5000);
+
+      const menuBtn = document.getElementById('menuBtn');
+      const mobileNav = document.getElementById('mobileNav');
+      menuBtn?.addEventListener('click', ()=> mobileNav.classList.toggle('hidden'));
+    });
+  </script>
+</body>
+</html>
