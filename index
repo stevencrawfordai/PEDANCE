@@ -1,0 +1,1024 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positive Energy Dance Co - Salsa, Bachata & Ballroom Classes in San Diego</title>
+    <meta name="description" content="Learn Salsa, Bachata, and Ballroom dancing with Positive Energy Dance Co in San Diego. Group classes, private lessons, and performances available.">
+    
+    <!-- Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .dancing-font { font-family: 'Dancing Script', cursive; }
+        .gradient-bg { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+        .text-gradient { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+        .dance-card:hover { transform: translateY(-5px); transition: transform 0.3s ease; }
+        .nav-link:hover { color: #667eea; transition: color 0.3s ease; }
+        .btn-primary { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); transition: all 0.3s ease; }
+        .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 10px 20px rgba(0,0,0,0.2); }
+        .section-spacing { margin-bottom: 4rem; }
+         {
+            .section-spacing { margin-bottom: 2rem; page-break-inside: avoid; }
+            .no-print { display: none; }
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-800">
+
+    <!-- Navigation Header -->
+    <nav class="bg-white shadow-lg sticky top-0 z-50 no-print">
+        <div class="container mx-auto px-4">
+            <div class="flex justify-between items-center py-4">
+                <!-- Logo -->
+                <div class="flex items-center">
+                    <img src="https://files.oaiusercontent.com/file-yPwhEHxbaTvGGUYqySQg3GeL?se=2024-12-19T21%3A35%3A39Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D299%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Dimage.png&sig=ETJkkJ46StHKuwqd6ymb7JjxO4Y8Dyo8%2FcsoGlvdekc%3D" alt="Positive Energy Dance Co" class="h-12 w-auto">
+                </div>
+                
+                <!-- Desktop Navigation -->
+                <div class="hidden md:flex space-x-8">
+                    <a href="#home" class="nav-link font-medium">Home</a>
+                    <a href="#about" class="nav-link font-medium">About</a>
+                    <a href="#classes" class="nav-link font-medium">Classes</a>
+                    <a href="#booking" class="nav-link font-medium">Booking</a>
+                    <a href="#pass" class="nav-link font-medium">Monthly Pass</a>
+                    <a href="#contact" class="nav-link font-medium">Contact</a>
+                </div>
+                
+                <!-- CTA Buttons -->
+                <div class="hidden md:flex space-x-4">
+                    <a href="#booking" class="bg-purple-600 hover:bg-purple-700 text-white px-6 py-2 rounded-lg font-semibold transition-colors">Book Now</a>
+                    <a href="#pass" class="text-purple-600 hover:text-purple-700 font-semibold">Buy Monthly Pass</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="section-spacing">
+        <!-- Hero Section -->
+        <div class="gradient-bg text-white py-20">
+            <div class="container mx-auto px-4 text-center">
+                <img src="https://files.oaiusercontent.com/file-yPwhEHxbaTvGGUYqySQg3GeL?se=2024-12-19T21%3A35%3A39Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D299%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Dimage.png&sig=ETJkkJ46StHKuwqd6ymb7JjxO4Y8Dyo8%2FcsoGlvdekc%3D" alt="Positive Energy Dance Co" class="h-20 w-auto mx-auto mb-8">
+                <h1 class="text-5xl md:text-6xl font-bold mb-6">Salsa, Bachata & Ballroom</h1>
+                <h2 class="text-2xl md:text-3xl mb-8 dancing-font">Bring your energy to the dance floor</h2>
+                <p class="text-xl mb-8 max-w-3xl mx-auto">Join classes, book private lessons, or hire our performers for your next event</p>
+                <div class="flex flex-col md:flex-row gap-4 justify-center items-center mb-8">
+                    <a href="#classes" class="bg-white text-purple-600 px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors">Book a Class</a>
+                    <a href="#pass" class="bg-transparent border-2 border-white text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-white hover:text-purple-600 transition-colors">Buy Monthly Pass</a>
+                </div>
+                <div class="flex justify-center space-x-6 text-sm">
+                    <a href="sms:+16192518863" class="hover:text-yellow-300 transition-colors"><i class="fas fa-sms mr-2"></i>Text us</a>
+                    <a href="/cdn-cgi/l/email-protection#e78f828b8b88a79788948e938e918282898295809e83868984828488c984888a" class="hover:text-yellow-300 transition-colors"><i class="fas fa-envelope mr-2"></i>Email us</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Why Positive Energy -->
+        <div class="py-16 bg-gray-50">
+            <div class="container mx-auto px-4">
+                <h2 class="text-4xl font-bold text-center mb-12">Why Choose Positive Energy Dance Co?</h2>
+                <div class="grid md:grid-cols-4 gap-8">
+                    <div class="text-center">
+                        <div class="bg-purple-100 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-award text-purple-600 text-2xl"></i>
+                        </div>
+                        <h3 class="font-bold mb-2">20+ Years Experience</h3>
+                        <p class="text-gray-600">Professional instruction with decades of teaching and training expertise</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="bg-purple-100 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-heart text-purple-600 text-2xl"></i>
+                        </div>
+                        <h3 class="font-bold mb-2">Welcoming Community</h3>
+                        <p class="text-gray-600">A supportive environment where everyone feels comfortable learning</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="bg-purple-100 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-map-marker-alt text-purple-600 text-2xl"></i>
+                        </div>
+                        <h3 class="font-bold mb-2">Multiple Locations</h3>
+                        <p class="text-gray-600">Convenient locations in North Park and off Balboa</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="bg-purple-100 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-user-friends text-purple-600 text-2xl"></i>
+                        </div>
+                        <h3 class="font-bold mb-2">Beginner Friendly</h3>
+                        <p class="text-gray-600">Start at any level - no experience necessary</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Dance Styles -->
+        <div class="py-16">
+            <div class="container mx-auto px-4">
+                <h2 class="text-4xl font-bold text-center mb-12">Dance Styles We Offer</h2>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="dance-card bg-white rounded-lg shadow-lg overflow-hidden">
+                        <img src="https://files.oaiusercontent.com/file-q2mHLAAGT5bZgGQ7rfnySjBa?se=2024-12-19T21%3A35%3A39Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D299%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Dimage.png&sig=aFz7EHPd4OYhYHQJh67o37xC6Q9PgZMAoFuzKxD6i8w%3D" alt="Salsa Dancing" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-2xl font-bold mb-3 text-gradient">Salsa</h3>
+                            <p class="text-gray-600 mb-4">Experience the passion and energy of Latin dance with our dynamic Salsa classes</p>
+                            <a href="#classes" class="text-purple-600 font-semibold hover:text-purple-700">Learn More →</a>
+                        </div>
+                    </div>
+                    <div class="dance-card bg-white rounded-lg shadow-lg overflow-hidden">
+                        <img src="https://files.oaiusercontent.com/file-v3b17YlMWvF9OnLjNbY8wU6O?se=2024-12-19T21%3A35%3A39Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D299%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Dimage.png&sig=mZQfZFR5DAPJLXS%2BrvdTGJSfQ1LIsvSBMhXxFZ8Tl%2Bk%3D" alt="Bachata Dancing" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-2xl font-bold mb-3 text-gradient">Bachata</h3>
+                            <p class="text-gray-600 mb-4">Discover the romantic and sensual movements of this beautiful Dominican dance</p>
+                            <a href="#classes" class="text-purple-600 font-semibold hover:text-purple-700">Learn More →</a>
+                        </div>
+                    </div>
+                    <div class="dance-card bg-white rounded-lg shadow-lg overflow-hidden">
+                        <img src="https://files.oaiusercontent.com/file-VRQD8VPJMJFl8SDxZiiWXO1p?se=2024-12-19T21%3A35%3A39Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D299%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Dimage.png&sig=7L4uvd5ylnQ8m3hkgdma09f8KcG0CBT%2Bw6w%2Fyb9KRE8%3D" alt="Ballroom Dancing" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-2xl font-bold mb-3 text-gradient">Ballroom</h3>
+                            <p class="text-gray-600 mb-4">Master the elegance and grace of traditional ballroom dancing styles</p>
+                            <a href="#classes" class="text-purple-600 font-semibold hover:text-purple-700">Learn More →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Pricing Snapshot -->
+        <div class="py-16 bg-gray-50">
+            <div class="container mx-auto px-4">
+                <h2 class="text-4xl font-bold text-center mb-12">Pricing</h2>
+                <div class="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
+                    <div class="bg-white rounded-lg shadow-lg p-6 text-center">
+                        <h3 class="text-2xl font-bold mb-4">Drop-in</h3>
+                        <div class="text-4xl font-bold text-purple-600 mb-4">$15</div>
+                        <p class="text-gray-600">Perfect for trying us out</p>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-lg p-6 text-center">
+                        <h3 class="text-2xl font-bold mb-4">4-Class Pack</h3>
+                        <div class="text-4xl font-bold text-purple-600 mb-4">$80</div>
+                        <p class="text-gray-600">Monthly package deal</p>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-lg p-6 text-center border-2 border-purple-600">
+                        <h3 class="text-2xl font-bold mb-4">Unlimited</h3>
+                        <div class="text-4xl font-bold text-purple-600 mb-4">$115</div>
+                        <p class="text-gray-600">Best value - dance unlimited!</p>
+                    </div>
+                </div>
+                <div class="text-center mt-8">
+                    <a href="#classes" class="btn-primary text-white px-8 py-3 rounded-lg font-bold">See Full Pricing</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Instructor Spotlight -->
+        <div class="py-16">
+            <div class="container mx-auto px-4">
+                <h2 class="text-4xl font-bold text-center mb-12">Meet Our Team</h2>
+                <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                    <div class="text-center">
+                        <img src="https://files.oaiusercontent.com/file-nvzjjvP5Rlu4tYeobmrnY0xp?se=2024-12-19T21%3A35%3A39Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D299%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Dimage.png&sig=GLYIKQQOgh9OrKnT%2Bn%2BI4tF73CYDWNqeS1IZoiwNuUQ%3D" alt="Dance Team" class="w-64 h-48 object-cover rounded-lg mx-auto mb-4">
+                        <h3 class="text-xl font-bold mb-2">Our Amazing Team</h3>
+                        <p class="text-gray-600">Professional instructors with decades of combined experience</p>
+                    </div>
+                    <div class="text-center">
+                        <img src="https://files.oaiusercontent.com/file-zr2YumKfAWUJjYNtTaLwhUjX?se=2024-12-19T21%3A35%3A39Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D299%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Dimage.png&sig=aEGppJfIuVkaUMKAj4ijdlIh4TwpC2ZZK1SDH7ADXxE%3D" alt="Individual Instructor" class="w-48 h-48 object-cover rounded-lg mx-auto mb-4">
+                        <h3 class="text-xl font-bold mb-2">Experienced Instructors</h3>
+                        <p class="text-gray-600">Learn from passionate teachers who love what they do</p>
+                    </div>
+                    <div class="text-center">
+                        <img src="https://files.oaiusercontent.com/file-vrBM5g4hqMzXW1eH3SviUz0L?se=2024-12-19T21%3A35%3A39Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D299%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Dimage.png&sig=7cU9OYvRzm8FyzJlVgmjFWvdEC7a9nGkBSbAiHum4mE%3D" alt="Performance Team" class="w-48 h-48 object-cover rounded-lg mx-auto mb-4">
+                        <h3 class="text-xl font-bold mb-2">Performance Ready</h3>
+                        <p class="text-gray-600">From beginners to performance level - we'll get you there</p>
+                    </div>
+                </div>
+                <div class="text-center mt-8">
+                    <a href="#about" class="text-purple-600 font-semibold text-lg hover:text-purple-700">Meet the Full Team →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section-spacing bg-gray-50 py-16">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-12">About Positive Energy Dance Co</h2>
+            
+            <!-- Mission & Story -->
+            <div class="max-w-4xl mx-auto text-center mb-16">
+                <p class="text-xl text-gray-700 mb-6">
+                    At Positive Energy Dance Co, we believe that dance is more than movement—it's a celebration of life, culture, and human connection. For over 20 years, we've been bringing the joy of Latin and Ballroom dance to the San Diego community.
+                </p>
+                <p class="text-lg text-gray-600">
+                    Our mission is to create a welcoming space where dancers of all levels can learn, grow, and express themselves through the beautiful art of dance. Whether you're taking your first steps or perfecting your performance skills, we're here to guide your journey.
+                </p>
+            </div>
+
+            <!-- Team Structure -->
+            <div class="mb-16">
+                <h3 class="text-3xl font-bold text-center mb-12">Our Team</h3>
+                
+                <!-- Director -->
+                <div class="bg-white rounded-lg shadow-lg p-8 mb-8 max-w-4xl mx-auto">
+                    <div class="text-center">
+                        <div class="bg-purple-100 rounded-full w-24 h-24 flex items-center justify-center mx-auto mb-6">
+                            <i class="fas fa-crown text-purple-600 text-3xl"></i>
+                        </div>
+                        <h4 class="text-2xl font-bold mb-2 text-purple-600">Micheal Saluats</h4>
+                        <p class="text-lg text-gray-600 mb-4">Director & Founder</p>
+                        <p class="text-gray-700">With 20 years of experience in teaching and training both students and teachers, Micheal leads Positive Energy Dance Co with passion and expertise. His dedication to dance education has shaped countless dancers throughout San Diego.</p>
+                    </div>
+                </div>
+
+                <!-- Team Members -->
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <div class="bg-white rounded-lg shadow-lg p-6 text-center">
+                        <div class="bg-purple-50 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-calendar-alt text-purple-600 text-xl"></i>
+                        </div>
+                        <h4 class="text-xl font-bold mb-2">Anjali Villarini</h4>
+                        <p class="text-purple-600 mb-2">Marketing & Scheduling</p>
+                        <p class="text-sm text-gray-600">Also serves as a dance instructor, bringing organizational excellence to our operations.</p>
+                    </div>
+                    
+                    <div class="bg-white rounded-lg shadow-lg p-6 text-center">
+                        <div class="bg-purple-50 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-star text-purple-600 text-xl"></i>
+                        </div>
+                        <h4 class="text-xl font-bold mb-2">Sinai Ajura</h4>
+                        <p class="text-purple-600 mb-2">Senior Instructor</p>
+                        <p class="text-sm text-gray-600">20 years of teaching experience in Salsa, Bachata, Ballroom & more.</p>
+                    </div>
+                    
+                    <div class="bg-white rounded-lg shadow-lg p-6 text-center">
+                        <div class="bg-purple-50 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-users text-purple-600 text-xl"></i>
+                        </div>
+                        <h4 class="text-xl font-bold mb-2">Chuck & Kat</h4>
+                        <p class="text-purple-600 mb-2">Instructor Duo</p>
+                        <p class="text-sm text-gray-600">Our newest instructors specializing in Casino Rueda classes.</p>
+                    </div>
+                    
+                    <div class="bg-white rounded-lg shadow-lg p-6 text-center">
+                        <div class="bg-purple-50 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-music text-purple-600 text-xl"></i>
+                        </div>
+                        <h4 class="text-xl font-bold mb-2">Ron</h4>
+                        <p class="text-purple-600 mb-2">Instructor</p>
+                        <p class="text-sm text-gray-600">Specializes in Salsa & Bachata instruction under Positive Energy Dance Co.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- What We Offer -->
+            <div class="bg-white rounded-lg shadow-lg p-8">
+                <h3 class="text-3xl font-bold text-center mb-8">What We Offer</h3>
+                <div class="grid md:grid-cols-3 gap-6">
+                    <div class="text-center">
+                        <i class="fas fa-users text-4xl text-purple-600 mb-4"></i>
+                        <h4 class="text-xl font-bold mb-2">Group Classes</h4>
+                        <p class="text-gray-600">Salsa, Bachata, and Ballroom classes for all skill levels</p>
+                    </div>
+                    <div class="text-center">
+                        <i class="fas fa-user text-4xl text-purple-600 mb-4"></i>
+                        <h4 class="text-xl font-bold mb-2">Private Lessons</h4>
+                        <p class="text-gray-600">One-on-one instruction tailored to your goals</p>
+                    </div>
+                    <div class="text-center">
+                        <i class="fas fa-theater-masks text-4xl text-purple-600 mb-4"></i>
+                        <h4 class="text-xl font-bold mb-2">Performances</h4>
+                        <p class="text-gray-600">Live performances and dance team opportunities</p>
+                    </div>
+                    <div class="text-center">
+                        <i class="fas fa-building text-4xl text-purple-600 mb-4"></i>
+                        <h4 class="text-xl font-bold mb-2">Corporate Events</h4>
+                        <p class="text-gray-600">Professional entertainment for corporate functions</p>
+                    </div>
+                    <div class="text-center">
+                        <i class="fas fa-heart text-4xl text-purple-600 mb-4"></i>
+                        <h4 class="text-xl font-bold mb-2">Private Events</h4>
+                        <p class="text-gray-600">Weddings, parties, and special celebrations</p>
+                    </div>
+                    <div class="text-center">
+                        <i class="fas fa-chalkboard-teacher text-4xl text-purple-600 mb-4"></i>
+                        <h4 class="text-xl font-bold mb-2">Instructors for Hire</h4>
+                        <p class="text-gray-600">Professional instructors for your events</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Classes Section -->
+    <section id="classes" class="section-spacing py-16">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-12">Dance Classes</h2>
+
+            <!-- Styles Overview -->
+            <div class="mb-16">
+                <h3 class="text-3xl font-bold text-center mb-8">Dance Styles</h3>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="bg-white rounded-lg shadow-lg p-6">
+                        <h4 class="text-2xl font-bold mb-4 text-purple-600">Salsa</h4>
+                        <img src="https://files.oaiusercontent.com/file-q2mHLAAGT5bZgGQ7rfnySjBa?se=2024-12-19T21%3A35%3A39Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D299%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Dimage.png&sig=aFz7EHPd4OYhYHQJh67o37xC6Q9PgZMAoFuzKxD6i8w%3D" alt="Salsa Class" class="w-full h-32 object-cover rounded mb-4">
+                        <p class="text-gray-600 mb-4">Experience the vibrant energy of Latin dance. Perfect for beginners - learn basic steps, timing, and partner connection in a fun, supportive environment.</p>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-lg p-6">
+                        <h4 class="text-2xl font-bold mb-4 text-purple-600">Bachata</h4>
+                        <img src="https://files.oaiusercontent.com/file-v3b17YlMWvF9OnLjNbY8wU6O?se=2024-12-19T21%3A35%3A39Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D299%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Dimage.png&sig=mZQfZFR5DAPJLXS%2BrvdTGJSfQ1LIsvSBMhXxFZ8Tl%2Bk%3D" alt="Bachata Class" class="w-full h-32 object-cover rounded mb-4">
+                        <p class="text-gray-600 mb-4">Discover the romantic and sensual movements of this Dominican dance. Learn the characteristic hip motion and smooth partner work that defines Bachata.</p>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-lg p-6">
+                        <h4 class="text-2xl font-bold mb-4 text-purple-600">Ballroom</h4>
+                        <img src="https://files.oaiusercontent.com/file-VRQD8VPJMJFl8SDxZiiWXO1p?se=2024-12-19T21%3A35%3A39Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D299%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Dimage.png&sig=7L4uvd5ylnQ8m3hkgdma09f8KcG0CBT%2Bw6w%2Fyb9KRE8%3D" alt="Ballroom Class" class="w-full h-32 object-cover rounded mb-4">
+                        <p class="text-gray-600 mb-4">Master the elegance and grace of traditional ballroom styles. Learn proper posture, frame, and technique in various ballroom dances.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Comprehensive Pricing -->
+            <div class="bg-gray-50 rounded-lg p-8 mb-16">
+                <h3 class="text-3xl font-bold text-center mb-8">Pricing Options</h3>
+                <div class="overflow-x-auto">
+                    <table class="w-full bg-white rounded-lg shadow">
+                        <thead class="bg-purple-600 text-white">
+                            <tr>
+                                <th class="p-4 text-left">Option</th>
+                                <th class="p-4 text-center">Price</th>
+                                <th class="p-4 text-left">Details</th>
+                                <th class="p-4 text-center">Action</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y">
+                            <tr>
+                                <td class="p-4 font-semibold">Drop-in Class</td>
+                                <td class="p-4 text-center text-2xl font-bold text-purple-600">$15</td>
+                                <td class="p-4">Perfect for trying out a class</td>
+                                <td class="p-4 text-center">
+                                    <a href="#booking" class="bg-purple-600 text-white px-4 py-2 rounded hover:bg-purple-700">Book</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="p-4 font-semibold">4-Class Monthly Pack</td>
+                                <td class="p-4 text-center text-2xl font-bold text-purple-600">$80</td>
+                                <td class="p-4">4 classes per month - great value</td>
+                                <td class="p-4 text-center">
+                                    <a href="#booking" class="bg-purple-600 text-white px-4 py-2 rounded hover:bg-purple-700">Buy</a>
+                                </td>
+                            </tr>
+                            <tr class="bg-purple-50">
+                                <td class="p-4 font-semibold">Unlimited Monthly Pass</td>
+                                <td class="p-4 text-center text-2xl font-bold text-purple-600">$115</td>
+                                <td class="p-4">Unlimited classes at any location - best value!</td>
+                                <td class="p-4 text-center">
+                                    <a href="#pass" class="bg-purple-600 text-white px-4 py-2 rounded hover:bg-purple-700">Get Pass</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="p-4 font-semibold">Private Lessons</td>
+                                <td class="p-4 text-center text-2xl font-bold text-purple-600">$80/hr</td>
+                                <td class="p-4">One-on-one instruction starting rate</td>
+                                <td class="p-4 text-center">
+                                    <a href="#booking" class="bg-purple-600 text-white px-4 py-2 rounded hover:bg-purple-700">Book</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="p-4 font-semibold">Teacher Training (6 weeks)</td>
+                                <td class="p-4 text-center text-2xl font-bold text-purple-600">$230</td>
+                                <td class="p-4">Complete 6-week instructor certification</td>
+                                <td class="p-4 text-center">
+                                    <a href="#booking" class="bg-purple-600 text-white px-4 py-2 rounded hover:bg-purple-700">Enroll</a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Class Schedule -->
+            <div class="bg-white rounded-lg shadow-lg p-8">
+                <h3 class="text-3xl font-bold text-center mb-8">Weekly Class Schedule</h3>
+                
+                <!-- Locations -->
+                <div class="mb-6">
+                    <h4 class="text-xl font-bold mb-4">Our Locations:</h4>
+                    <div class="grid md:grid-cols-2 gap-4">
+                        <div class="bg-gray-50 p-4 rounded-lg">
+                            <h5 class="font-bold">Queen Bee's — North Park</h5>
+                            <p class="text-gray-600">3925 Ohio St, San Diego, CA 92104</p>
+                        </div>
+                        <div class="bg-gray-50 p-4 rounded-lg">
+                            <h5 class="font-bold">Headquarters — off Balboa</h5>
+                            <p class="text-gray-600">5035 Shawline St, San Diego, CA 92111</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sample Schedule -->
+                <div class="overflow-x-auto">
+                    <table class="w-full border-collapse">
+                        <thead class="bg-purple-600 text-white">
+                            <tr>
+                                <th class="p-3 border text-left">Day</th>
+                                <th class="p-3 border text-left">Time</th>
+                                <th class="p-3 border text-left">Style</th>
+                                <th class="p-3 border text-left">Level</th>
+                                <th class="p-3 border text-left">Location</th>
+                                <th class="p-3 border text-left">Instructor</th>
+                                <th class="p-3 border text-center">Book</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y">
+                            <tr>
+                                <td class="p-3 border">Monday</td>
+                                <td class="p-3 border">7:00 PM</td>
+                                <td class="p-3 border">Salsa</td>
+                                <td class="p-3 border">Beginner</td>
+                                <td class="p-3 border">North Park</td>
+                                <td class="p-3 border">Micheal</td>
+                                <td class="p-3 border text-center">
+                                    <a href="#booking" class="bg-purple-600 text-white px-3 py-1 rounded text-sm">Book</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 border">Tuesday</td>
+                                <td class="p-3 border">7:30 PM</td>
+                                <td class="p-3 border">Bachata</td>
+                                <td class="p-3 border">Intermediate</td>
+                                <td class="p-3 border">Balboa</td>
+                                <td class="p-3 border">Sinai</td>
+                                <td class="p-3 border text-center">
+                                    <a href="#booking" class="bg-purple-600 text-white px-3 py-1 rounded text-sm">Book</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 border">Wednesday</td>
+                                <td class="p-3 border">6:30 PM</td>
+                                <td class="p-3 border">Casino Rueda</td>
+                                <td class="p-3 border">All Levels</td>
+                                <td class="p-3 border">North Park</td>
+                                <td class="p-3 border">Chuck & Kat</td>
+                                <td class="p-3 border text-center">
+                                    <a href="#booking" class="bg-purple-600 text-white px-3 py-1 rounded text-sm">Book</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 border">Thursday</td>
+                                <td class="p-3 border">7:00 PM</td>
+                                <td class="p-3 border">Ballroom</td>
+                                <td class="p-3 border">Beginner</td>
+                                <td class="p-3 border">Balboa</td>
+                                <td class="p-3 border">Anjali</td>
+                                <td class="p-3 border text-center">
+                                    <a href="#booking" class="bg-purple-600 text-white px-3 py-1 rounded text-sm">Book</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 border">Friday</td>
+                                <td class="p-3 border">8:00 PM</td>
+                                <td class="p-3 border">Salsa</td>
+                                <td class="p-3 border">Advanced</td>
+                                <td class="p-3 border">North Park</td>
+                                <td class="p-3 border">Ron</td>
+                                <td class="p-3 border text-center">
+                                    <a href="#booking" class="bg-purple-600 text-white px-3 py-1 rounded text-sm">Book</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 border">Saturday</td>
+                                <td class="p-3 border">2:00 PM</td>
+                                <td class="p-3 border">Bachata</td>
+                                <td class="p-3 border">Beginner</td>
+                                <td class="p-3 border">Both Locations</td>
+                                <td class="p-3 border">Team</td>
+                                <td class="p-3 border text-center">
+                                    <a href="#booking" class="bg-purple-600 text-white px-3 py-1 rounded text-sm">Book</a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="mt-6 text-center">
+                    <p class="text-gray-600 mb-4">Schedule subject to change. Please confirm class times when booking.</p>
+                    <a href="#booking" class="btn-primary text-white px-8 py-3 rounded-lg font-bold">Book Your Class Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Monthly Pass Section -->
+    <section id="pass" class="section-spacing bg-purple-600 text-white py-16">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-12">Monthly Unlimited Pass</h2>
+            
+            <div class="max-w-4xl mx-auto">
+                <!-- Offer Summary -->
+                <div class="text-center mb-12">
+                    <div class="text-6xl font-bold mb-4">$115</div>
+                    <div class="text-2xl mb-4">Unlimited Classes • Any Location • Cancel Anytime</div>
+                    <p class="text-xl opacity-90">The best way to immerse yourself in dance</p>
+                </div>
+
+                <!-- Benefits -->
+                <div class="grid md:grid-cols-2 gap-8 mb-12">
+                    <div class="bg-white bg-opacity-10 rounded-lg p-6">
+                        <h3 class="text-2xl font-bold mb-4">Benefits Include:</h3>
+                        <ul class="space-y-2">
+                            <li><i class="fas fa-check mr-2"></i>Unlimited access to all group classes</li>
+                            <li><i class="fas fa-check mr-2"></i>Valid at both locations</li>
+                            <li><i class="fas fa-check mr-2"></i>Priority booking on busy nights</li>
+                            <li><i class="fas fa-check mr-2"></i>Best value for regular dancers</li>
+                            <li><i class="fas fa-check mr-2"></i>No per-class checkout hassle</li>
+                        </ul>
+                    </div>
+                    <div class="bg-white bg-opacity-10 rounded-lg p-6">
+                        <h3 class="text-2xl font-bold mb-4">How It Works:</h3>
+                        <ul class="space-y-2">
+                            <li><i class="fas fa-info-circle mr-2"></i>Activates on purchase date</li>
+                            <li><i class="fas fa-info-circle mr-2"></i>Valid for 30 days from activation</li>
+                            <li><i class="fas fa-info-circle mr-2"></i>Non-transferable to other students</li>
+                            <li><i class="fas fa-info-circle mr-2"></i>Automatic renewal available</li>
+                            <li><i class="fas fa-info-circle mr-2"></i>Cancel anytime before renewal</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Value Proposition -->
+                <div class="bg-white bg-opacity-10 rounded-lg p-8 mb-12">
+                    <h3 class="text-2xl font-bold text-center mb-6">Why Choose the Unlimited Pass?</h3>
+                    <div class="grid md:grid-cols-3 gap-6 text-center">
+                        <div>
+                            <div class="text-3xl font-bold mb-2">2+</div>
+                            <p>Classes per week makes this worthwhile</p>
+                        </div>
+                        <div>
+                            <div class="text-3xl font-bold mb-2">8+</div>
+                            <p>Classes available weekly across locations</p>
+                        </div>
+                        <div>
+                            <div class="text-3xl font-bold mb-2">60%</div>
+                            <p>Savings vs individual drop-in rates</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CTA -->
+                <div class="text-center">
+                    <a href="#booking" class="bg-white text-purple-600 px-10 py-4 rounded-lg font-bold text-xl hover:bg-gray-100 transition-colors">Buy Monthly Pass Now</a>
+                    <p class="mt-4 opacity-75">Start dancing unlimited today!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section id="booking" class="section-spacing py-16">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-12">Book Your Experience</h2>
+
+            <!-- Booking Types -->
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+                <div class="bg-white rounded-lg shadow-lg p-6 text-center">
+                    <i class="fas fa-user text-3xl text-purple-600 mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">Private Lessons</h3>
+                    <p class="text-gray-600 mb-4">Starting at $80/hr</p>
+                    <p class="text-sm text-gray-500">One-on-one personalized instruction</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg p-6 text-center">
+                    <i class="fas fa-chalkboard-teacher text-3xl text-purple-600 mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">Workshops</h3>
+                    <p class="text-gray-600 mb-4">From $250</p>
+                    <p class="text-sm text-gray-500">On-site teaching for groups</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg p-6 text-center">
+                    <i class="fas fa-theater-masks text-3xl text-purple-600 mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">Performances</h3>
+                    <p class="text-gray-600 mb-4">From $350</p>
+                    <p class="text-sm text-gray-500">Professional dance entertainment</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg p-6 text-center">
+                    <i class="fas fa-graduation-cap text-3xl text-purple-600 mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">Teacher Training</h3>
+                    <p class="text-gray-600 mb-4">$230 (6 weeks)</p>
+                    <p class="text-sm text-gray-500">Become a certified instructor</p>
+                </div>
+            </div>
+
+            <!-- Booking Form -->
+            <div class="bg-white rounded-lg shadow-lg p-8 max-w-4xl mx-auto">
+                <h3 class="text-2xl font-bold text-center mb-8">Book Your Service</h3>
+                <form class="space-y-6">
+                    <!-- Personal Information -->
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div>
+                            <label class="block text-sm font-bold mb-2">First Name *</label>
+                            <input type="text" class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:border-purple-600 focus:outline-none" required>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-bold mb-2">Last Name *</label>
+                            <input type="text" class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:border-purple-600 focus:outline-none" required>
+                        </div>
+                    </div>
+                    
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div>
+                            <label class="block text-sm font-bold mb-2">Email *</label>
+                            <input type="email" class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:border-purple-600 focus:outline-none" required>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-bold mb-2">Phone *</label>
+                            <input type="tel" class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:border-purple-600 focus:outline-none" required>
+                        </div>
+                    </div>
+
+                    <!-- Preferences -->
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div>
+                            <label class="block text-sm font-bold mb-2">Preferred Contact Method</label>
+                            <select class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:border-purple-600 focus:outline-none">
+                                <option>Email</option>
+                                <option>Text/SMS</option>
+                                <option>Phone Call</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-bold mb-2">Service Type</label>
+                            <select class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:border-purple-600 focus:outline-none">
+                                <option>Private Lesson</option>
+                                <option>Workshop/Teaching</option>
+                                <option>Performance</option>
+                                <option>Corporate Event</option>
+                                <option>Private Event</option>
+                                <option>Teacher Training</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div>
+                            <label class="block text-sm font-bold mb-2">Dance Style(s)</label>
+                            <select class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:border-purple-600 focus:outline-none">
+                                <option>Salsa</option>
+                                <option>Bachata</option>
+                                <option>Ballroom</option>
+                                <option>Casino Rueda</option>
+                                <option>Multiple Styles</option>
+                                <option>Other</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-bold mb-2">Instructor Preference (Optional)</label>
+                            <select class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:border-purple-600 focus:outline-none">
+                                <option>No Preference</option>
+                                <option>Micheal</option>
+                                <option>Anjali</option>
+                                <option>Sinai</option>
+                                <option>Chuck & Kat</option>
+                                <option>Ron</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- Event Details -->
+                    <div>
+                        <label class="block text-sm font-bold mb-2">Event Details (if applicable)</label>
+                        <div class="grid md:grid-cols-3 gap-4">
+                            <input type="date" class="border border-gray-300 rounded-lg px-4 py-3 focus:border-purple-600 focus:outline-none" placeholder="Date">
+                            <input type="time" class="border border-gray-300 rounded-lg px-4 py-3 focus:border-purple-600 focus:outline-none" placeholder="Time">
+                            <input type="text" class="border border-gray-300 rounded-lg px-4 py-3 focus:border-purple-600 focus:outline-none" placeholder="Audience Size">
+                        </div>
+                    </div>
+
+                    <div>
+                        <label class="block text-sm font-bold mb-2">Event Location/Address</label>
+                        <input type="text" class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:border-purple-600 focus:outline-none">
+                    </div>
+
+                    <!-- Additional Information -->
+                    <div>
+                        <label class="block text-sm font-bold mb-2">Goals & Special Requests</label>
+                        <textarea class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:border-purple-600 focus:outline-none h-24" placeholder="Tell us about your goals, experience level, or any special requests..."></textarea>
+                    </div>
+
+                    <div>
+                        <label class="block text-sm font-bold mb-2">How did you hear about us?</label>
+                        <select class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:border-purple-600 focus:outline-none">
+                            <option>Google Search</option>
+                            <option>Instagram</option>
+                            <option>Friend Referral</option>
+                            <option>Event Attendance</option>
+                            <option>Other</option>
+                        </select>
+                    </div>
+
+                    <!-- Consent -->
+                    <div class="space-y-3">
+                        <label class="flex items-start">
+                            <input type="checkbox" class="mt-1 mr-3" required>
+                            <span class="text-sm">I agree to the terms and conditions and privacy policy *</span>
+                        </label>
+                        <label class="flex items-start">
+                            <input type="checkbox" class="mt-1 mr-3">
+                            <span class="text-sm">I'd like to receive updates about classes and events via email/SMS</span>
+                        </label>
+                    </div>
+
+                    <div class="text-center">
+                        <button type="submit" class="btn-primary text-white px-10 py-4 rounded-lg font-bold text-lg">Submit Booking Request</button>
+                        <p class="mt-4 text-sm text-gray-600">We'll respond within 1 business day</p>
+                    </div>
+                </form>
+            </div>
+
+            <!-- Alternative Contact Methods -->
+            <div class="mt-12 text-center">
+                <h3 class="text-2xl font-bold mb-6">Prefer to Contact Us Directly?</h3>
+                <div class="flex flex-col md:flex-row gap-4 justify-center">
+                    <a href="tel:+16192518863" class="bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-700 transition-colors">
+                        <i class="fas fa-phone mr-2"></i>Call (619) 251-8863
+                    </a>
+                    <a href="sms:+16192518863" class="bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
+                        <i class="fas fa-sms mr-2"></i>Text (619) 251-8863
+                    </a>
+                    <a href="/cdn-cgi/l/email-protection#ed8588818182ad9d829e8499849b888883889f8a94898c838e888e82c38e8280" class="bg-purple-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-purple-700 transition-colors">
+                        <i class="fas fa-envelope mr-2"></i>Email Us
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-spacing bg-gray-50 py-16">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-12">Get In Touch</h2>
+
+            <div class="grid lg:grid-cols-2 gap-12">
+                <!-- Contact Information -->
+                <div>
+                    <h3 class="text-2xl font-bold mb-6">Contact Information</h3>
+                    
+                    <!-- Direct Contact -->
+                    <div class="bg-white rounded-lg shadow-lg p-6 mb-6">
+                        <h4 class="text-xl font-bold mb-4">Reach Us Directly</h4>
+                        <div class="space-y-4">
+                            <a href="tel:+16192518863" class="flex items-center text-lg hover:text-purple-600 transition-colors">
+                                <i class="fas fa-phone text-purple-600 mr-4 w-6"></i>
+                                <span>(619) 251-8863</span>
+                            </a>
+                            <a href="sms:+16192518863" class="flex items-center text-lg hover:text-purple-600 transition-colors">
+                                <i class="fas fa-sms text-purple-600 mr-4 w-6"></i>
+                                <span>(619) 251-8863</span>
+                            </a>
+                            <a href="/cdn-cgi/l/email-protection#7d15181111123d0d120e1409140b181813180f1a04191c131e181e12531e1210" class="flex items-center text-lg hover:text-purple-600 transition-colors">
+                                <i class="fas fa-envelope text-purple-600 mr-4 w-6"></i>
+                                <span><span class="__cf_email__" data-cfemail="7c14191010133c0c130f1508150a191912190e1b05181d121f191f13521f1311">[email&#160;protected]</span></span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Locations -->
+                    <div class="bg-white rounded-lg shadow-lg p-6">
+                        <h4 class="text-xl font-bold mb-4">Our Locations</h4>
+                        
+                        <div class="space-y-6">
+                            <div>
+                                <h5 class="font-bold text-purple-600 mb-2">Queen Bee's — North Park</h5>
+                                <p class="text-gray-600 mb-2">3925 Ohio St, San Diego, CA 92104</p>
+                                <a href="https://maps.google.com/?q=3925+Ohio+St,+San+Diego,+CA+92104" target="_blank" class="text-purple-600 hover:text-purple-700 font-semibold">
+                                    <i class="fas fa-map-marker-alt mr-2"></i>Get Directions
+                                </a>
+                            </div>
+                            
+                            <div>
+                                <h5 class="font-bold text-purple-600 mb-2">Headquarters — off Balboa</h5>
+                                <p class="text-gray-600 mb-2">5035 Shawline St, San Diego, CA 92111</p>
+                                <a href="https://maps.google.com/?q=5035+Shawline+St,+San+Diego,+CA+92111" target="_blank" class="text-purple-600 hover:text-purple-700 font-semibold">
+                                    <i class="fas fa-map-marker-alt mr-2"></i>Get Directions
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Response Time -->
+                    <div class="mt-6 bg-purple-100 rounded-lg p-4">
+                        <p class="text-purple-800">
+                            <i class="fas fa-clock mr-2"></i>
+                            <strong>Response Time:</strong> We typically reply within 1 business day
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div>
+                    <div class="bg-white rounded-lg shadow-lg p-6">
+                        <h3 class="text-2xl font-bold mb-6">Send Us a Message</h3>
+                        <form class="space-y-4">
+                            <div class="grid md:grid-cols-2 gap-4">
+                                <div>
+                                    <label class="block text-sm font-bold mb-2">Name *</label>
+                                    <input type="text" class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:border-purple-600 focus:outline-none" required>
+                                </div>
+                                <div>
+                                    <label class="block text-sm font-bold mb-2">Email *</label>
+                                    <input type="email" class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:border-purple-600 focus:outline-none" required>
+                                </div>
+                            </div>
+                            
+                            <div>
+                                <label class="block text-sm font-bold mb-2">Phone</label>
+                                <input type="tel" class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:border-purple-600 focus:outline-none">
+                            </div>
+                            
+                            <div>
+                                <label class="block text-sm font-bold mb-2">Subject</label>
+                                <select class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:border-purple-600 focus:outline-none">
+                                    <option>General Inquiry</option>
+                                    <option>Class Information</option>
+                                    <option>Private Lessons</option>
+                                    <option>Event Booking</option>
+                                    <option>Teacher Training</option>
+                                    <option>Other</option>
+                                </select>
+                            </div>
+                            
+                            <div>
+                                <label class="block text-sm font-bold mb-2">Message *</label>
+                                <textarea class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:border-purple-600 focus:outline-none h-32" placeholder="How can we help you?" required></textarea>
+                            </div>
+                            
+                            <button type="submit" class="w-full btn-primary text-white py-3 rounded-lg font-bold hover:bg-purple-700 transition-colors">
+                                Send Message
+                            </button>
+                        </form>
+                    </div>
+
+                    <!-- Social Media -->
+                    <div class="mt-6 text-center">
+                        <h4 class="text-lg font-bold mb-4">Follow Our Dance Journey</h4>
+                        <a href="https://instagram.com/positiveenergydanceco" target="_blank" class="inline-flex items-center bg-gradient-to-r from-pink-500 to-purple-600 text-white px-6 py-3 rounded-lg font-semibold hover:from-pink-600 hover:to-purple-700 transition-all">
+                            <i class="fab fa-instagram text-xl mr-3"></i>
+                            @positiveenergydanceco
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-4 gap-8 mb-8">
+                <!-- Logo & Description -->
+                <div class="md:col-span-2">
+                    <img src="https://files.oaiusercontent.com/file-yPwhEHxbaTvGGUYqySQg3GeL?se=2024-12-19T21%3A35%3A39Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D299%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Dimage.png&sig=ETJkkJ46StHKuwqd6ymb7JjxO4Y8Dyo8%2FcsoGlvdekc%3D" alt="Positive Energy Dance Co" class="h-16 w-auto mb-4 filter invert">
+                    <p class="text-gray-300 mb-4">San Diego's premier dance studio for Salsa, Bachata, and Ballroom. Join our community and bring your positive energy to the dance floor!</p>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h4 class="text-lg font-bold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#home" class="text-gray-300 hover:text-white transition-colors">Home</a></li>
+                        <li><a href="#about" class="text-gray-300 hover:text-white transition-colors">About</a></li>
+                        <li><a href="#classes" class="text-gray-300 hover:text-white transition-colors">Classes</a></li>
+                        <li><a href="#booking" class="text-gray-300 hover:text-white transition-colors">Booking</a></li>
+                        <li><a href="#pass" class="text-gray-300 hover:text-white transition-colors">Monthly Pass</a></li>
+                        <li><a href="#contact" class="text-gray-300 hover:text-white transition-colors">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Info -->
+                <div>
+                    <h4 class="text-lg font-bold mb-4">Contact</h4>
+                    <div class="space-y-2">
+                        <a href="tel:+16192518863" class="block text-gray-300 hover:text-white transition-colors">
+                            <i class="fas fa-phone mr-2"></i>(619) 251-8863
+                        </a>
+                        <a href="sms:+16192518863" class="block text-gray-300 hover:text-white transition-colors">
+                            <i class="fas fa-sms mr-2"></i>Text Us
+                        </a>
+                        <a href="/cdn-cgi/l/email-protection#cca4a9a0a0a38cbca3bfa5b8a5baa9a9a2a9beabb5a8ada2afa9afa3e2afa3a1" class="block text-gray-300 hover:text-white transition-colors">
+                            <i class="fas fa-envelope mr-2"></i>Email Us
+                        </a>
+                        <a href="https://instagram.com/positiveenergydanceco" target="_blank" class="block text-gray-300 hover:text-white transition-colors">
+                            <i class="fab fa-instagram mr-2"></i>@positiveenergydanceco
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bottom Bar -->
+            <div class="border-t border-gray-700 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-gray-300">&copy; 2024 Positive Energy Dance Co. All rights reserved.</p>
+                <div class="mt-4 md:mt-0">
+                    <p class="text-gray-300 text-sm">Bringing positive energy to San Diego's dance community</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Smooth Scrolling Script -->
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Form submission handling
+        document.querySelectorAll('form').forEach(form => {
+            form.addEventListener('submit', function(e) {
+                e.preventDefault();
+                alert('Thank you for your message! We\'ll get back to you within 1 business day.');
+            });
+        });
+    </script>
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "DanceSchool",
+        "name": "Positive Energy Dance Co",
+        "telephone": "+1-619-251-8863",
+        "email": "hello@positiveenergydanceco.com",
+        "sameAs": [
+            "https://instagram.com/positiveenergydanceco"
+        ],
+        "location": [
+            {
+                "@type": "Place",
+                "name": "Queen Bee's — North Park",
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "3925 Ohio St",
+                    "addressLocality": "San Diego",
+                    "addressRegion": "CA",
+                    "postalCode": "92104",
+                    "addressCountry": "US"
+                }
+            },
+            {
+                "@type": "Place", 
+                "name": "Headquarters — off Balboa",
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "5035 Shawline St",
+                    "addressLocality": "San Diego",
+                    "addressRegion": "CA",
+                    "postalCode": "92111",
+                    "addressCountry": "US"
+                }
+            }
+        ],
+        "offers": [
+            {
+                "@type": "Offer",
+                "name": "Drop-in Class",
+                "price": "15",
+                "priceCurrency": "USD"
+            },
+            {
+                "@type": "Offer", 
+                "name": "Monthly Unlimited Pass",
+                "price": "115",
+                "priceCurrency": "USD"
+            },
+            {
+                "@type": "Offer",
+                "name": "Private Lessons",
+                "price": "80",
+                "priceCurrency": "USD"
+            }
+        ]
+    }
+    </script>
+</body>
+</html>
+    <script id="html_badge_script1">
+        window.__genspark_remove_badge_link = "https://www.genspark.ai/api/html_badge/" +
+            "remove_badge?token=To%2FBnjzloZ3UfQdcSaYfDm2V1wLX1E19TsMQaK25mGALD3KwoSZV3RBfrQQJQvp%2B1D53ky55Q8H7KoKRXxtKz1HPNXmQy9z%2B0OgVI%2BsOB0wdxbPzHY38I4fImeumqGdxfQZnjBPkKyTVZTp%2Bs8Lmda5cb1Bk1N0ktSEQAbaqJbxzJ%2FU9Vcvih4p9SR7jcYrf%2FYKYGry0T5u2puxv1ajJlRY0ZwO92BNMkduc%2Bh8xC91k4e%2Bv0qwfQ4nTl0QmkuMxMCw5jPFQHRz4lKDO4CF2srBhwfMr7b6EaY40ZkFxjAWEqUMZFihzS6MoAfw3PZAUoN0gYkBP%2BZ4JJmSRP4bEGk8EAYwoHechOKBRPaE8tuYZmtGk3UTu%2FgJlSj%2BSYo0wQ5nt06HT7IEysAIwh7ujquHYkeNTkohMxIFvuE7wxAEdQao62M%2FF4EusQJeiDYnRf5CA0s8TFi%2BzqoR3ay05wLT7UHhFLs4%2B86rruJsjzXt7ItQ7O6tWim4P5L8Q9FgbhCVVnl%2F8v14NDvun55Yy2buAUEbpYQ0qc%2Bpq%2FwaOh0U%3D";
+        window.__genspark_locale = "en-US";
+        window.__genspark_token = "To/BnjzloZ3UfQdcSaYfDm2V1wLX1E19TsMQaK25mGALD3KwoSZV3RBfrQQJQvp+1D53ky55Q8H7KoKRXxtKz1HPNXmQy9z+0OgVI+sOB0wdxbPzHY38I4fImeumqGdxfQZnjBPkKyTVZTp+s8Lmda5cb1Bk1N0ktSEQAbaqJbxzJ/U9Vcvih4p9SR7jcYrf/YKYGry0T5u2puxv1ajJlRY0ZwO92BNMkduc+h8xC91k4e+v0qwfQ4nTl0QmkuMxMCw5jPFQHRz4lKDO4CF2srBhwfMr7b6EaY40ZkFxjAWEqUMZFihzS6MoAfw3PZAUoN0gYkBP+Z4JJmSRP4bEGk8EAYwoHechOKBRPaE8tuYZmtGk3UTu/gJlSj+SYo0wQ5nt06HT7IEysAIwh7ujquHYkeNTkohMxIFvuE7wxAEdQao62M/F4EusQJeiDYnRf5CA0s8TFi+zqoR3ay05wLT7UHhFLs4+86rruJsjzXt7ItQ7O6tWim4P5L8Q9FgbhCVVnl/8v14NDvun55Yy2buAUEbpYQ0qc+pq/waOh0U=";
+    </script>
+    
+    <script id="html_notice_dialog_script" src="https://www.genspark.ai/notice_dialog.js"></script>
+    
